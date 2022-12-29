@@ -1,0 +1,233 @@
+/* ФОНОВЫЕ ЗВЕЗДОЧКИ */
+#e1, #e5, #e9, #e13, #e17, #e21, #e25, #e29, #e33, #e37, #e41, #e45, #e45, #e48 {animation: color-change1 1.8s linear infinite;}
+@keyframes color-change1 {
+  0%, 50%, 100% {background-color: black;}
+  25% {background-color: #6E4AFF;}
+  75% {background-color: #29CBFF;}
+}
+#e2, #e6, #e10, #e14, #e18, #e22, #e26, #e30, #e34, #e38, #e42, #e46, #e49 {animation: color-change2 1.6s linear infinite;}
+@keyframes color-change2 {
+  0%, 100% {background-color: #DBFF29;}
+  25%, 75% {background-color: black;}
+  50% {background-color: #FF42CA;}
+}
+#e3, #e7, #e11, #e15, #e19, #e23, #e27, #e31, #e35, #e39, #e43, #e47 {animation: color-change3 1.4s linear infinite;}
+@keyframes color-change3 {
+  0%, 50%, 100% {background-color: black;}
+  25% {background-color: #6E4AFF;}
+  75% {background-color: #FF42CA;}
+}
+#e4, #e8, #e12, #e16, #e20, #e24, #e28, #e32, #e36, #e40, #e44 {animation: color-change4 1.2s linear infinite;}
+@keyframes color-change4 {
+  0%, 100% {background-color: #29CBFF;}
+  25%, 75% {background-color: black;}
+  50% {background-color: #DBFF29;}
+}
+
+/* ПЛАШКИ */
+#plashka2, #plashka4, #plashka6 {animation: flying0 1.2s ease infinite;}
+@keyframes flying0 {
+  0%, 100% {transform: rotate(-2deg);}
+  50% {transform: rotate(2deg);}
+}
+#plashka1, #plashka3, #plashka5 {animation: flying 1.2s ease infinite;}
+@keyframes flying {
+  0%, 100% {transform: rotate(2deg);}
+  50% {transform: rotate(-2deg);}
+}
+#text1 {animation: flying1 1.2s ease infinite;}
+@keyframes flying1 {
+  0%, 100% {transform: rotate(-5.07deg);}
+  50% {transform: rotate(-9.07deg);}
+}
+#text2 {animation: flying2 1.2s ease infinite;}
+@keyframes flying2 {
+  0%, 100% {transform: rotate(-4.74deg);}
+  50% {transform: rotate(-0.74deg);}
+}
+#text3 {animation: flying3 1.2s ease infinite;}
+@keyframes flying3 {
+  0%, 100% {transform: rotate(22.54deg);}
+  50% {transform: rotate(18.54deg);}
+}
+#text4 {animation: flying4 1.2s ease infinite;}
+@keyframes flying4 {
+  0%, 100% {transform: rotate(-17deg);}
+  50% {transform: rotate(-13deg);}
+}
+#text5 {animation: flying5 1.2s ease infinite;}
+@keyframes flying5 {
+  0%, 100% {transform: rotate(2deg);}
+  50% {transform: rotate(-2deg);}
+}
+#text6 {animation: flying6 1.2s ease infinite;}
+@keyframes flying6 {
+  0%, 100% {transform: rotate(12.82deg);}
+  50% {transform: rotate(16.82deg);}
+}
+
+/* НЛО */
+#ufo {animation: migration 4s ease-in-out;}
+@keyframes migration {
+  0% {transform: translateX(50.78vw) translateY(-11.46vw);}
+  50% {transform: translateX(24.48vw) translateY(-13.54vw);}
+  100% {transform: translateX(0) translateY(0);}
+}
+
+/* СФЕРЫ */
+.sphere1:hover {cursor: pointer; animation: move 0.6s ease;}
+.sphere2:hover {cursor: pointer; animation: move 0.9s ease;}
+@keyframes move {
+  15% {transform: translate(0.47vw);}
+  30% {transform: translate(-0.47vw);}
+  40% {transform: translate(0.31vw);}
+  50% {transform: translate(-0.31vw);}
+  65% {transform: translate(0.16vw);}
+  100% {transform: translate(0);}
+}
+
+/* ВИЛКА И НОЖИК */
+#fork:hover {cursor: pointer; animation: fork 1.5s ease-in-out infinite;}
+@keyframes fork {
+  50% {transform: rotate(20deg);}
+  100% {transform: rotate(0deg);}
+}
+#knife:hover {cursor: pointer; animation: knife 1.5s ease-in-out infinite;}
+@keyframes knife {
+  50% {transform: rotate(20deg);}
+  100% {transform: rotate(0deg);}
+}
+
+/* ВАФЕЛЬКА */
+#waffle:hover {cursor: pointer; animation: scale 2.5s ease-in-out infinite;}
+@keyframes scale {
+  25% {transform: scale(1.15) rotate(20deg);}
+  50%, 100% {transform: scale(1) rotate(0deg);}
+  75% {transform: scale(1.15) rotate(-20deg);}
+}
+.circles {animation: circles 2.5s ease-in-out infinite;}
+@keyframes circles {
+  0%, 100% {transform: scale(0.95);}
+  50% {transform: scale(1);}
+}
+#circle1 {animation: circle1 2.5s ease infinite;}
+@keyframes circle1 {
+  0% {border-color: #FF42CA;}
+  50% {border-color: white;}
+  100% {border-color: #29CBFF;}
+}
+#circle2 {animation: circle2 2.5s ease infinite;}
+@keyframes circle2 {
+  0% {border-color: white;}
+  50% {border-color: #29CBFF;}
+  100% {border-color: #FF42CA;}
+}
+#circle3 {animation: circle3 2.5s ease infinite;}
+@keyframes circle3 {
+  0% {border-color: #29CBFF;}
+  50% {border-color: #FF42CA;}
+  100% {border-color: white;}
+}
+
+/* ШОКО-ЕЖИК */
+#star3:hover {cursor: pointer; animation: star3 4s ease-in-out infinite;}
+@keyframes star3 {
+  0%, 100% {transform: scale(1);}
+  50% {transform: scale(0.65) rotate(180deg);}
+}
+#electro {animation: electro 10s ease infinite;}
+@keyframes electro {
+  0%, 100% {transform: scale(0.99) rotate(0deg);}
+  50% {transform: scale(0.99) rotate(180deg);}
+}
+
+/* АСТЕРОИД ОМНОМА */
+#fire {animation: fire 1.3s ease-out infinite;}
+@keyframes fire {
+  0%, 100% {transform: translateX(-2.60vw) translateY(-1.56vw);}
+  50% {transform: translateX(-5.21vw) translateY(-3.13vw);}
+}
+#fire:hover {cursor: pointer; animation-play-state: paused;}
+#asteroid {animation: asteroid 1s ease-in-out infinite;}
+@keyframes asteroid {
+  0%, 100% {transform: translateX(-1.04vw) translateY(-1.04vw);}
+  50% {transform: translateX(0) translateY(0);}
+}
+#asteroid:hover {cursor: pointer; animation-play-state: paused;}
+
+/* ПЕРЕЛИВ ПЛАНЕТ */
+#yastva2:hover, #planet11:hover, #planet22:hover {cursor: pointer; animation: opacity 2s ease;}
+@keyframes opacity {
+  0%, 100% {opacity: 0;}
+  50% {opacity: 1;}
+}
+
+/* КРУГИ */
+#air {animation: rotation0 12s linear infinite;}
+@keyframes rotation0 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+#miniearth:hover {cursor: pointer; animation-play-state: paused;}
+#star1, #star2 {animation: rotation2 6.5s linear infinite;}
+@keyframes rotation2 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+}
+#orbit2, #orbit3 {animation: rotation1 4s linear infinite;}
+#miniearth {animation: rotation1 6s linear infinite;}
+@keyframes rotation1 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+/* ПЛАНЕТЫ С ОРБИТОЙ */
+#wow11, #wow1 {animation: wow11 4s ease infinite;}
+@keyframes wow11 {
+  0%, 100% {transform: translateX(1.04vw) translateY(-1.04vw);}
+  50% {transform: translateX(-1.04vw) translateY(1.04vw);}
+}
+#wow22, #wow2 {animation: wow22 4s ease infinite;}
+@keyframes wow22 {
+  0%, 100% {transform: translateX(1.04vw) translateY(1.04vw);}
+  50% {transform: translateX(-1.04vw) translateY(-1.04vw);}
+}
+
+/* СИННАБОН */
+#plate {animation: plate 6s ease-in-out infinite;}
+@keyframes plate {
+  0%, 100% {transform: translateX(0) translateY(-0.52vw);}
+  50% {transform: translateX(-1.04vw) translateY(0.52vw);}
+}
+#shadow {animation: shadow 6s ease-in-out infinite;}
+@keyframes shadow {
+  0%, 100% {transform: scale(1); opacity: 0.40;}
+  50% {transform: scale(1.05); opacity: 1;}
+}
+#cinnabon, #minis {animation: cinnabon 6s ease-in-out infinite;}
+@keyframes cinnabon {
+  0%, 100% {transform: translateX(0) translateY(0);}
+  50% {transform: translateX(0.52vw) translateY(0.52vw);}
+}
+#ministar2, #ministar3, #mini3 {animation: layer1 6s ease-in-out infinite;}
+@keyframes layer1 {
+  0%, 100% {transform: translateX(0) translateY(0);}
+  50% {transform: translateX(1.04vw) translateY(-0.52vw);}
+}
+#mini1, #mini2 {animation: layer2 6s ease-in-out infinite;}
+@keyframes layer2 {
+  0%, 100% {transform: translateX(0) translateY(0.52vw) rotate(75deg);}
+  50% {transform: translateX(1.04vw) translateY(-1.04vw) rotate(75deg);}
+}
+#ministar1 {animation: layer3 6s ease-in-out infinite;}
+@keyframes layer3 {
+  0%, 100% {transform: translateX(0) translateY(1.04vw);}
+  50% {transform: translateX(1.04vw) translateY(-1.56vw);}
+}
+
+/* КУСЬ */
+.kusi:hover {cursor: pointer; animation: kusss ease-out 1.4s;}
+@keyframes kusss {
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}

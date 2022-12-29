@@ -1,0 +1,751 @@
+/* SCROLLBAR */
+body {
+  /* cursor: url('../images/cursor.svg'), auto; */
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 0.78vw;
+  height: 0vw;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+  background: #313131;
+  border-radius: 8vw;
+  border: 0.05vw solid #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #DBFF29;
+  border: 0.05vw solid #000000;
+}
+
+/* MAIN SETTINGS */
+html {
+  background: black;
+  overflow-x: scroll;
+  font-family: 'Montserrat';
+  color: white;
+}
+.container {
+  position: relative;
+  max-width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  font-size: 1.98vw;
+  line-height: 2.40vw;
+  letter-spacing: 0.09em;
+  text-align: center;
+}
+.on {
+  position: absolute;
+  display: inline-block;
+}
+
+/* FIRST SCREEN */
+.screen1 {
+  position: relative;
+  width: 100vw;
+  height: 100.78vw;
+}
+#planet1 {
+  width: 9.11vw;
+  height: 9.11vw;
+  left: 5.47vw;
+  top: 3.59vw;
+}
+#planet11 {
+  width: 9.11vw;
+  height: 9.11vw;
+  left: 5.47vw;
+  top: 3.59vw;
+  opacity: 0;
+}
+#orbit1 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 84.74vw;
+  height: 84.74vw;
+  left: -7.71vw;
+  top: 12.19vw;
+  border-radius: 46.88vw;
+  border: 0.63vw solid white;
+}
+#orbit2 {
+  width: 81.72vw;
+  height: 81.67vw;
+  left: -5.78vw;
+  top: 13.59vw;
+}
+#orbit3 {
+  width: 66.93vw;
+  height: 66.72vw;
+  left: 1.77vw;
+  top: 21.20vw;
+}
+#yastva {
+  width: 45.26vw;
+  height: 45.26vw;
+  left: 12.76vw;
+  top: 31.98vw;
+}
+#yastva2 {
+  width: 45.26vw;
+  height: 45.26vw;
+  left: 12.76vw;
+  top: 31.98vw;
+  opacity: 0;
+}
+#earth {
+  width: 41.67vw;
+  height: 41.67vw;
+  left: 62.76vw;
+  top: 19.58vw;
+  transform: rotate(155.31deg);
+}
+#star1 {
+  width: 36.88vw;
+  height: 36.88vw;
+  left: 60.26vw;
+  top: 38.49vw;
+  transform: rotate(5.06deg);
+}
+#ball1 {
+  width: 27.40vw;
+  height: 26.82vw;
+  left: 70.31vw;
+  top: 77.03vw;
+}
+  #wow11 {
+  width: 34.22vw;
+  height: 22.19vw;
+  left: 66.72vw;
+  top: 79.53vw;
+}
+#wow1 {
+  width: 41.61vw;
+  height: 21.77vw;
+  left: 63.23vw;
+  top: 79.9vw;
+}
+#text1 {
+  height: 8.13vw;
+  width: 24.32vw;
+  left: 64.01vw;
+  top: 7.5vw;
+  transform: rotate(-7.07deg);
+}
+#plashka1 {
+  box-sizing: border-box;
+  width: 47.29vw;
+  height: 14.95vw;
+  left: 51.93vw;
+  top: 3.07vw;
+}
+#ufo {
+  width: 13.75vw;
+  height: 14.79vw;
+  left: 18.80vw;
+  top: 29.79vw;
+}
+
+/* SECOND SCREEN */
+.screen2 {
+  position: relative;
+  width: 100vw;
+  height: 83.85vw;
+}
+#text2 {
+  width: 27.81vw;
+  height: 4.90vw;
+  left: 8.59vw;
+  top: 45.21vw;
+  transform: rotate(-2.74deg);
+}
+#plashka2 {
+  box-sizing: border-box;
+  width: 34.90vw;
+  height: 11.30vw;
+  left: 6.20vw;
+  top: 41.98vw;
+}
+#planet2 {
+  width: 14.06vw;
+  height: 14.06vw;
+  left: 54.27vw;
+  top: 0.52vw;
+}
+#planet22 {
+  width: 14.06vw;
+  height: 14.06vw;
+  left: 54.27vw;
+  top: 0.52vw;
+  opacity: 0;
+}
+#star2 {
+  width: 66.35vw;
+  height: 66.35vw;
+  left: -17.66vw;
+  top: -28.39vw;
+}
+#fork {
+  width: 20vw;
+  height: 67.29vw;
+  left: 47.66vw;
+  top: 19.74vw;
+}
+#knife {
+  width: 11.20vw;
+  height: 62.50vw;
+  left: 77.14vw;
+  top: 10.89vw;
+}
+
+/* THIRD SCREEN */
+.screen3 {
+  position: relative;
+  width: 100vw;
+  height: 134.06vw;
+}
+.window {
+  position: absolute;
+  overflow: hidden;
+  width: 236.35vw;
+  height: 116.09vw;
+  left: -47.24vw;
+  top: -19.06vw;
+}
+#air {
+  width: 236.35vw;
+  height: 225.42vw;
+  left: -21.15vw;
+  top: 27.81vw;
+  transform: rotate(-25deg);
+}
+#miniearth {
+  width: 15.21vw;
+  height: 14.90vw;
+  left: 73.39vw;
+  top: -1.46vw;
+}
+.circles {
+  width: 75.42vw;
+  height: 75.10vw;
+  left: -11.41vw;
+  top: -5.73vw;
+}
+#circle1 {
+  box-sizing: border-box;
+  width: 75.42vw;
+  height: 75.10vw;
+  left: -11.41vw;
+  top: -5.73vw;
+  border: 0.63vw solid #FF42CA;
+  border-radius: 46.88vw;
+}
+#circle2 {
+  box-sizing: border-box;
+  width: 58.85vw;
+  height: 58.59vw;
+  left: -2.60vw;
+  top: 2.71vw;
+  border: 0.63vw solid white;
+  border-radius: 46.88vw;
+}
+#circle3 {
+  box-sizing: border-box;
+  width: 41.30vw;
+  height: 41.15vw;
+  left: 6.15vw;
+  top: 11.35vw;
+  border: 0.63vw solid #29CBFF;
+  border-radius: 46.88vw;
+}
+#waffle {
+  width: 68.70vw;
+  height: 68.39vw;
+  left: -7.50vw;
+  top: -2.19vw;
+}
+#electro {
+  width: 117.24vw;
+  height: 110.26vw;
+  left: 14.74vw;
+  top: 14.95vw;
+}
+#star3 {
+  width: 100.52vw;
+  height: 100.63vw;
+  left: 23.07vw;
+  top: 20.47vw;
+}
+#fire {
+  width: 54.79vw;
+  height: 54.43vw;
+  left: 8.22vw;
+  top: 5.71vw;
+}
+#asteroid {
+  width: 42.71vw;
+  height: 38.65vw;
+  left: 31.77vw;
+  top: 31.25vw;
+}
+#plashka3 {
+  box-sizing: border-box;
+  width: 42.71vw;
+  height: 20.73vw;
+  left: -5.99vw;
+  top: 57.86vw;
+}
+#plashka4 {
+  box-sizing: border-box;
+  width: 23.54vw;
+  height: 14.64vw;
+  left: 75.73vw;
+  top: 109.95vw;
+}
+#plashka5 {
+  box-sizing: border-box;
+  width: 23.13vw;
+  height: 13.44vw;
+  left: 7.24vw;
+  top: 124.17vw;
+}
+#text3 {
+  width: 29.17vw;
+  height: 8.13vw;
+  left: 0.78vw;
+  top: 65.73vw;
+  transform: rotate(20.54deg);
+}
+#text4 {
+  width: 11.61vw;
+  height: 4.90vw;
+  left: 80.89vw;
+  top: 112.97vw;
+  transform: rotate(-15deg);
+}
+#text5 {
+  width: 14.22vw;
+  height: 4.53vw;
+  left: 11.46vw;
+  top: 129.22vw;
+}
+
+/* FOURTH SCREEN */
+.screen4 {
+  position: relative;
+  width: 100vw;
+  height: 95.42vw;
+}
+#planetxorbit2 {
+  width: 27.24vw;
+  height: 32.86vw;
+  left: 6.15vw;
+  top: 15.52vw;
+}
+#kus {
+  width: 27.24vw;
+  height: 32.86vw;
+  left: 6.15vw;
+  top: 15.52vw;
+  opacity: 0;
+}
+#cinnabon {
+  width: 46.41vw;
+  height: 47.40vw;
+  left: 33.91vw;
+  top: 15.10vw;
+}
+#minis {
+  width: 24.79vw;
+  height: 17.97vw;
+  left: 46.51vw;
+  top: 21.72vw;
+}
+#ministar1 {
+  width: 4.17vw;
+  height: 3.85vw;
+  left: 72.29vw;
+  top: 7.45vw;
+}
+#ministar2 {
+  width: 4.17vw;
+  height: 3.85vw;
+  left: 57.08vw;
+  top: 14.64vw;
+}
+#ministar3 {
+  width: 3.33vw;
+  height: 3.02vw;
+  left: 71.88vw;
+  top: 24.11vw;
+}
+.mini {
+  position: absolute;
+  width: 0.63vw;
+  height: 1.51vw;
+  background: #DBFF29;
+  border-radius: 20.83vw;
+}
+#mini1 {
+  width: 0.68vw;
+  height: 1.56vw;
+  left: 66.46vw;
+  top: 12.03vw;
+  transform: rotate(75deg);
+}
+#mini2 {
+  width: 0.68vw;
+  height: 1.56vw;
+  left: 73.65vw;
+  top: 16.72vw;
+  transform: rotate(45deg);
+}
+#mini3 {
+  width: 0.68vw;
+  height: 1.56vw;
+  left: 66.88vw;
+  top: 19.06vw;
+}
+#plate {
+  width: 83.28vw;
+  height: 65.47vw;
+  left: 21.67vw;
+  top: 25.68vw;
+}
+#shadow {
+  width: 46.77vw;
+  height: 23.39vw;
+  left: 42.29vw;
+  top: 45.36vw;
+}
+#plashka6 {
+  box-sizing: border-box;
+  width: 51.61vw;
+  height: 22.29vw;
+  left: 12.08vw;
+  top: 52.45vw;
+}
+#text6 {
+  width: 38.13vw;
+  height: 7.24vw;
+  left: 17.24vw;
+  top: 60.8vw;
+  transform: rotate(14.82deg);
+}
+#wow22 {
+  width: 33.85vw;
+  height: 24.43vw;
+  left: 2.40vw;
+  top: 19.38vw;
+}
+#ball2 {
+  width: 23.18vw;
+  height: 22.92vw;
+  left: 7.60vw;
+  top: 20.31vw;
+}
+#kusss {
+  width: 10.42vw;
+  height: 10.42vw;
+  left: 15.05vw;
+  top: 1.72vw;
+}
+#wow2 {
+  width: 49.84vw;
+  height: 24.01vw;
+  left: -5.83vw;
+  top: 19.74vw;
+  height: 23.96vw;
+}
+.kusi {
+  width: 26.04vw;
+  height: 22.60vw;
+  left: 5.52vw;
+  top: 18.59vw;
+  opacity: 0;
+}
+#footer {
+  position: absolute;
+  font-size: 1.98vw;
+  line-height: 2.60vw;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 24.95vw;
+  height: 6.98vw;
+  left: 4.79vw;
+  top: 85.26vw;
+}
+#logo {
+  width: 12.81vw;
+  height: 5.05vw;
+  left: 82.40vw;
+  top: 85.26vw;
+}
+
+/* PLANETS EVERYWHERE */
+.sphere1 {
+  position: absolute;
+  width: 2.34vw;
+  height: 2.34vw;
+  border-radius: 1.82vw;
+}
+.sphere2 {
+  position: absolute;
+  width: 3.13vw;
+  height: 3.13vw;
+  border-radius: 1.82vw;
+}
+#sp1 {
+  left: 65.26vw;
+  top: -7.03vw;
+  background: #FF42CA;
+}
+#sp2 {
+  left: 38.75vw;
+  top: 5.21vw;
+  background: #29CBFF;
+}
+#sp3 {
+  left: 30.16vw;
+  top: 133.59vw;
+  background: #6E4AFF;
+}
+#sp4 {
+  left: 89.48vw;
+  top: 12.08vw;
+  background: #DBFF29;
+}
+#sp6 {
+  left: 23.54vw;
+  top: 10.47vw;
+  background: #FF42CA;
+}
+#sp7 {
+  left: 91.77vw;
+  top: 69.53vw;
+  background: #29CBFF;
+}
+#sp8 {
+  left: 8.91vw;
+  top: 75.68vw;
+  background: #DBFF29;
+}
+
+/* STARS EVERYWHERE */
+.ellipses1 {
+  position: absolute;
+  width: 0.89vw;
+  height: 0.89vw;
+  background: white;
+  border-radius: 1.82vw;
+}
+.ellipses2 {
+  position: absolute;
+  width: 1.20vw;
+  height: 1.20vw;
+  background: white;
+  border-radius: 2.60vw;
+}
+#e1 {
+  left: 24.58vw;
+  top: 4.69vw;
+}
+#e2 {
+  left: 95.08vw;
+  top: 5.88vw;
+}
+#e3 {
+  left: 4.43vw;
+  top: 16.20vw;
+}
+#e4 {
+  left: 60.63vw;
+  top: 34.95vw;
+}
+#e5 {
+  left: 7.76vw;
+  top: 71.72vw;
+}
+#e6 {
+  left: 94.22vw;
+  top: 61.67vw;
+}
+#e7 {
+  left: 58.85vw;
+  top: 84.38vw;
+}
+#e8 {
+  left: 42.03vw;
+  top: 116.15vw;
+}
+#e9 {
+  left: 93.91vw;
+  top: 102.81vw;
+}
+#e10 {
+  left: 30.36vw;
+  top: 135.27vw;
+}
+#e11 {
+  left: 52.45vw;
+  top: 5.31vw;
+}
+#e12 {
+  left: 92.19vw;
+  top: 21.25vw;
+}
+#e13 {
+  left: 85.99vw;
+  top: 71.04vw;
+}
+#e14 {
+  left: 10.42vw;
+  top: 119.79vw;
+}
+#e15 {
+  left: 32.97vw;
+  top: 104.58vw;
+}
+#e16 {
+  left: 73.91vw;
+  top: 109.06vw;
+}
+#e17 {
+  left: 45.72vw;
+  top: 59.89vw;
+}
+#e18 {
+  left: 6.79vw;
+  top: 33.93vw;
+}
+#e19 {
+  left: 67.34vw;
+  top: 54.95vw;
+}
+#e20 {
+  left: 94.58vw;
+  top: 24.43vw;
+}
+#e21 {
+  left: 52.29vw;
+  top: 176.88vw;
+}
+#e22 {
+  left: 88.49vw;
+  top: 40.83vw;
+}
+#e23 {
+  left: 7.97vw;
+  top: 72.97vw;
+}
+#e24 {
+  left: 26.71vw;
+  top: 63.23vw;
+}
+#e25 {
+  left: 12.29vw;
+  top: 11.20vw;
+}
+#e26 {
+  left: 9.17vw;
+  top: 49.43vw;
+}
+#e27 {
+  left: 49.17vw;
+  top: 22.40vw;
+}
+#e28 {
+  left: 94.74vw;
+  top: 28.49vw;
+}
+#e29 {
+  left: 92.71vw;
+  top: -1.67vw;
+}
+#e30 {
+  left: 49.38vw;
+  top: -9.35vw;
+}
+#e31 {
+  left: 72.55vw;
+  top: -6.15vw;
+}
+#e32 {
+  left: 7.76vw;
+  top: 111.51vw;
+}
+#e33 {
+  left: 88.28vw;
+  top: 54.79vw;
+}
+#e34 {
+  left: 8.96vw;
+  top: 82.97vw;
+}
+#e35 {
+  left: 73.02vw;
+  top: 92.66vw;
+}
+#e36 {
+  left: 74.01vw;
+  top: 21.51vw;
+}
+#e37 {
+  left: 13.65vw;
+  top: 116.93vw;
+}
+#e38 {
+  left: 8.39vw;
+  top: 142.19vw;
+}
+#e39 {
+  left: 44.06vw;
+  top: 144.01vw;
+}
+#e40 {
+  left: 34.38vw;
+    top: 19.53vw;
+}
+#e41 {
+  left: 88.02vw;
+  top: 27.24vw;
+}
+#e42 {
+  left: 24.01vw;
+  top: 76.04vw;
+}
+#e43 {
+  left: 84.79vw;
+  top: 76.30vw;
+}
+#e44 {
+  left: 42.86vw;
+  top: 89.69vw;
+}
+#e45 {
+  left: 6.15vw;
+  top: 41.67vw;
+}
+#e46 {
+  left: 7.76vw;
+  top: 58.49vw;
+}
+#e47 {
+  left: 58.44vw;
+  top: 86.72vw;
+}
+#e48 {
+  left: 91.30vw;
+  top: 9.38vw;
+}
+#e49 {
+  left: 84.43vw;
+  top: -4.22vw;
+}

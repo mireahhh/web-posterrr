@@ -1,0 +1,16 @@
+<svg width="1319" height="1314" viewBox="0 0 1319 1314" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_171_145" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1319" height="1314">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M657.03 3.75033C657.724 365.181 951.584 658.097 1314.41 659.231C951.976 660.361 658.357 952.645 657.028 1313.54C655.696 952.767 362.273 660.561 0.00109863 659.239V659.23C362.667 657.906 656.336 365.063 657.03 3.75033ZM1318.64 659.231C1318.76 659.231 1318.88 659.23 1319 659.23V659.232C1318.88 659.232 1318.76 659.232 1318.64 659.231ZM657.03 1.17949C657.029 0.786245 657.028 0.393081 657.026 0L657.033 0C657.032 0.393082 657.031 0.786245 657.03 1.17949Z" fill="#E2E2E2"/>
+</mask>
+<g mask="url(#mask0_171_145)">
+<rect width="1410.99" height="1416.52" transform="matrix(-1 0 0 1 1349.08 -86.0352)" fill="#DBFF29"/>
+<line y1="-9.5" x2="1031.82" y2="-9.5" transform="matrix(1 0 0 -1 128.754 322.626)" stroke="white" stroke-width="19"/>
+<line y1="-9.5" x2="1031.82" y2="-9.5" transform="matrix(1 0 0 -1 128.754 534.639)" stroke="white" stroke-width="19"/>
+<line y1="-9.5" x2="1031.82" y2="-9.5" transform="matrix(1 0 0 -1 128.754 746.658)" stroke="white" stroke-width="19"/>
+<line y1="-9.5" x2="1031.82" y2="-9.5" transform="matrix(1 0 0 -1 128.754 958.663)" stroke="white" stroke-width="19"/>
+<line y1="-9.5" x2="1027.55" y2="-9.5" transform="matrix(-4.38932e-08 -1 -1 4.35304e-08 325.324 1154.41)" stroke="white" stroke-width="19"/>
+<line y1="-9.5" x2="1027.55" y2="-9.5" transform="matrix(-4.38932e-08 -1 -1 4.35304e-08 538.223 1154.41)" stroke="white" stroke-width="19"/>
+<line y1="-9.5" x2="1027.55" y2="-9.5" transform="matrix(-4.38932e-08 -1 -1 4.35304e-08 751.105 1154.41)" stroke="white" stroke-width="19"/>
+<line y1="-9.5" x2="1027.55" y2="-9.5" transform="matrix(-4.38932e-08 -1 -1 4.35304e-08 963.992 1154.41)" stroke="white" stroke-width="19"/>
+</g>
+</svg>
